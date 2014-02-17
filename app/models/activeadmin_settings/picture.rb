@@ -58,8 +58,6 @@ module ActiveadminSettings
   else
     class Picture < ActiveRecord::Base
 
-      attr_accessible :data_content_type, :data_file_size, :height, :width, :data
-
       include PictureMethods
 
       # Scopes
